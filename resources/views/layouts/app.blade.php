@@ -12,9 +12,7 @@
 
         {{--Styles--}}
         <!--begin style general theme-->
-        <link href="{{asset('assets/layouts/css/bootstrap.css')}}"  rel="stylesheet" type="text/css" >
-        <link href="{{asset('assets/layouts/css/custom.css')}}"  rel="stylesheet" type="text/css" >
-        <link href="{{asset('assets/layouts/css/animate.css')}}"  rel="stylesheet" type="text/css" >
+        <link href="{{mix('assets/layouts/css/app.css')}}"  rel="stylesheet" type="text/css" >
         <!--end of style general theme-->
 
         @yield('styles')
